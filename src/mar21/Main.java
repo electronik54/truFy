@@ -43,31 +43,43 @@ public class Main {
         truptisDecision = false;
         nikhilsDecision = true;
         System.out.println("ANSWER("+ questionCount +"):" + (truptisDecision && nikhilsDecision));
+        questionCount++;
+        System.out.println();
 
         System.out.println("QUESTION(" + questionCount + "): CAN TRUPTI GO TO DHANU FESTIVAL?");
         truptisDecision = true;
         nikhilsDecision = false;
         System.out.println("ANSWER("+ questionCount +"):" + (truptisDecision && nikhilsDecision));
+        questionCount++;
+        System.out.println();
 
         System.out.println("QUESTION("+ questionCount +"): NOT TO ALLOW BUTTER IN OUR ROOM?");
         truptisDecision = false;
         nikhilsDecision = false;
         buttersDecision = true;
         System.out.println("ANSWER("+ questionCount +"):" + (truptisDecision || nikhilsDecision || buttersDecision));
+        questionCount++;
+        System.out.println();
 
         System.out.println("QUESTION("+ questionCount +"): OPERATE BANK ACCOUNT?");
         truptisDecision = true;
         nikhilsDecision = false;
         System.out.println("ANSWER("+ questionCount +"):" + (truptisDecision || nikhilsDecision));
+        questionCount++;
+        System.out.println();
 
         System.out.println("QUESTION("+ questionCount +"): IS TRUPTI HUNGRY?");
         truptisDecision = true;
         System.out.println("ANSWER("+ questionCount +"):" + (truptisDecision));
+        questionCount++;
+        System.out.println();
 
         System.out.println("QUESTION("+ questionCount +"): LETS DO JAVA AFTER DINNER?");
         truptisDecision = true;
         nikhilsDecision = true;
         System.out.println("ANSWER("+ questionCount +"):" + (truptisDecision &&  nikhilsDecision));
         System.out.println("BUTTERS ANSWER("+ questionCount +"):" + !(truptisDecision && nikhilsDecision));
+        questionCount++;
+        System.out.println();
     }
 }
