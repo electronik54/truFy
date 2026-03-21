@@ -2,6 +2,7 @@ package mar21;
 
 public class Main {
     public static void main(String[] args) {
+
         String list = "sugar, salt, tea";
         String[] arrList = list.split(",");
 
@@ -83,5 +84,24 @@ public class Main {
 
         //camalcasing
         int moneyIsTruptisWallet=1000;
+
+        String[] fruitList = new String[]{"apple", "berry", "watermelon", "grapes", "chikoo", "orange", "pineapple", "mango", "leeche", "strawberry", "banana", "custardapple"};
+
+        //FOR IS A LOOP
+        for (String fruit: fruitList) {
+            System.out.println("FRUIT NAME: " + fruit);
+        }
+        System.out.println();
+
+
+        int[] arrInt = new int[]{1,2,3,4,5,6,7,8,9};
+        int result = 0;
+
+        for (int number: arrInt) {
+            result = result + number;
+            System.out.println("NUMBER IS: " + number);
+        }
+        System.out.println("RESULT: " + result);
+
     }
 }
