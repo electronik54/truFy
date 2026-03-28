@@ -1,4 +1,4 @@
-package march28;
+package mar23;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,19 +12,13 @@ public class Main {
         firstName = secondName;
         secondName = temporaryName;
 
+
         System.out.println("firstName:" + firstName);
         System.out.println("secondName:" + secondName);
+        /*
+        firstName = Trupti
+        secondName = Nikhil
+         */
 
-
-        //HOMEWORK: REVERSE THE CONTENTS ON THE STRING WITHOUT CREATING ANOTHER STRING
-        String[] students=new String[]{"nikhil","trupti","bharti","vini","tapu"};
-
-        //FOR - to reverse the content
-            //REVERSE
-
-        //FOR - to print the content
-            //PRINT
-
-        //RESULT: Students={tapu,vini,bharti,trupti,nikhil}
     }
 }
