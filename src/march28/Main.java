@@ -1,30 +1,10 @@
 package march28;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        String firstName = "Nikhil";
-        String secondName = "Trupti";
 
-        String temporaryName;
-
-        temporaryName = firstName;
-        firstName = secondName;
-        secondName = temporaryName;
-
-        System.out.println("firstName:" + firstName);
-        System.out.println("secondName:" + secondName);
-
-
-        //HOMEWORK: REVERSE THE CONTENTS ON THE STRING WITHOUT CREATING ANOTHER STRING
-        String[] students=new String[]{"nikhil","trupti","bharti","vini","tapu"};
-
-        //FOR - to reverse the content
-            //REVERSE
-
-        //FOR - to print the content
-            //PRINT
-
-        //RESULT: Students={tapu,vini,bharti,trupti,nikhil}
     }
 }
