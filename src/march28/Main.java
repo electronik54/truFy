@@ -17,14 +17,22 @@ public class Main {
 
 
         //HOMEWORK: REVERSE THE CONTENTS ON THE STRING WITHOUT CREATING ANOTHER STRING
-        String[] students=new String[]{"nikhil","trupti","bharti","vini","tapu"};
+//RESULT: Students={tapu,vini,bharti,trupti,nikhil}
+        String[] students = new String[]{"nikhil", "trupti", "bharti", "vini", "tapu"};
 
         //FOR - to reverse the content
-            //REVERSE
+        for (int list = students.length - 1; list >= 0; list--) {
+            System.out.println("Reverse Students " + students[list]);
+        }
 
         //FOR - to print the content
-            //PRINT
+        for (String student : students) {
+            System.out.println(student);
+        }
 
-        //RESULT: Students={tapu,vini,bharti,trupti,nikhil}
+
+
+
+
     }
 }
